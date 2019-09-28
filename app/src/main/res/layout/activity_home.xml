@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bck"
+
+    android:padding="20dp"
+    tools:context=".Home">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <android.support.v7.widget.CardView
+android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/police_complaint">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="145dp"
+            android:src="@drawable/police143"/>
+<TextView
+    android:layout_marginTop="115dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="complaints"
+    android:textSize="20dp"
+    android:textColor="@color/brickRedPoly"
+    android:layout_marginLeft="180dp"
+   />
+
+    </android.support.v7.widget.CardView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="view police complaint"
+            android:layout_marginTop="10dp"
+            android:id="@+id/view_police_complaint"
+            android:background="@color/orangePoly"/>
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="25dp"
+            android:background="@drawable/image1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/municipal_complaints">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="145dp"
+                 />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="municipal complaint  form."
+                android:textColor="@color/black"
+                android:textSize="35dp"
+
+                android:layout_marginLeft="10dp"
+                />
+
+        </android.support.v7.widget.CardView>
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="view municipal complaints"
+            android:id="@+id/view_municipal_complaints"
+            android:background="@color/send_otp_blue"/>
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="20dp"
+            android:background="@drawable/image1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/collector_complaints">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:src="@drawable/collector" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="collector "
+                android:textColor="@color/brickRedPoly"
+                android:textSize="25dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="100dp"/>
+        </android.support.v7.widget.CardView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="view collector complaints"
+            android:background="@color/brickRedPoly"
+            android:id="@+id/view_collcetor_complaints"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

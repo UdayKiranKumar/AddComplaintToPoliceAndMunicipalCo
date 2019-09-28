@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@drawable/image1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:id="@+id/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Login"
+
+            android:textSize="30dp" />
+
+        <EditText
+
+            android:id="@+id/ed1username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:hint="Username or email" />
+
+        <EditText
+
+            android:id="@+id/ed2password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:hint="Password" />
+
+            <Button
+
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#f55d5d"
+                android:ems="8"
+                android:text="login"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"/>
+
+        <TextView
+            android:id="@+id/btnreg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:text="Are you new? Sign up now."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developed by Uday Kiran Kumar"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="70dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#F03">
+        </TextView>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

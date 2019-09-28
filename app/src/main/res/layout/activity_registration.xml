@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/image2"
+        android:orientation="vertical">
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25sp"
+            android:layout_centerHorizontal="true"
+            android:text="Create Account"
+            android:layout_gravity="center"
+            android:id="@+id/txt4_create"/>
+
+        <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/fullname_reg" android:layout_marginRight="5dp" android:layout_marginLeft="5dp" android:hint="Enter full name" android:layout_marginTop="10dp"/>
+
+        <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/enter_email_reg" android:layout_marginRight="5dp" android:layout_marginLeft="5dp" android:hint="Email" android:layout_marginTop="10dp"/>
+
+        <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/password_reg" android:layout_marginRight="5dp" android:layout_marginLeft="5dp" android:hint="Password" android:layout_marginTop="10dp"/>
+
+        <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/mobilenumber" android:layout_marginRight="5dp" android:layout_marginLeft="5dp" android:hint="Mobile number" android:layout_marginTop="10dp" android:inputType="number"/>
+
+        <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Register" android:layout_gravity="center" android:id="@+id/register_button" android:layout_marginRight="15dp" android:layout_marginLeft="15dp" android:layout_marginTop="30dp" android:textAllCaps="false"/>
+
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:text="After clicking the Register Button. You will be redirected to Login Screen" android:id="@+id/txt5_registerAlready" android:layout_marginTop="15dp" android:gravity="center_horizontal" android:visibility="gone"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
